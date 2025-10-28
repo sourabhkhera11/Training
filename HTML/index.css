@@ -1,0 +1,79 @@
+/* To remove any sort of default margin and padding  */
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    margin: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#header{
+    display: inline;
+    justify-content: center;
+}
+#headerContent{
+    display: flex;
+    margin-left: -2rem;
+}
+#headerContent ul{
+    list-style: none;
+    min-width: 600px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+a{
+    text-decoration: none;
+    color: #000;
+    font-size:larger;
+}
+.button{
+    padding: 0.5rem;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 500;
+    margin: 0.5rem;
+    font-size: medium;
+}
+.login{
+    background-color: #ffffff;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.signup{
+    background-color: #085c5c;
+    color:#ffffff ;
+    font-size: medium;
+    font-weight:bolder;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+#container1{
+    display: flex;
+    margin: 3rem;
+    justify-content: space-between;
+}
+#container1 h1{
+    font-size:xxx-large;
+}
+#container1A div{
+    margin-top: 2rem;
+    font-size: medium;
+}
+#container1A div input{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border-color: #ffffff75;
+}
+#container1A div button{
+    background-color: #085c5c;
+    color: #ffffff;
+}
+#container1B{
+    display: flex;
+    justify-content: space-between;
+}
+
