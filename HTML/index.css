@@ -2,29 +2,22 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-nav{
-    margin: 2rem;
+.navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 1rem 2rem;
+    background: #f8fbfb;
+    font-family: Arial, Helvetica, sans-serif;
 }
-#header{
-    display: inline;
-    justify-content: center;
-}
-#headerContent{
-    display: flex;
-    margin-left: -2rem;
-}
-#headerContent ul{
+.navlinks{
     list-style: none;
-    min-width: 600px;
     display: flex;
-    justify-content: space-around;
-    
+    gap: 2rem;
 }
-a{
+.navlinks a{
     text-decoration: none;
     color: #000;
     font-size:larger;
@@ -51,29 +44,85 @@ a{
     font-weight:bolder;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 }
-#container1{
-    display: flex;
-    margin: 3rem;
-    justify-content: space-between;
-}
-#container1 h1{
-    font-size:xxx-large;
-}
-#container1A div{
-    margin-top: 2rem;
-    font-size: medium;
-}
-#container1A div input{
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    border-color: #ffffff75;
-}
-#container1A div button{
-    background-color: #085c5c;
-    color: #ffffff;
-}
-#container1B{
-    display: flex;
-    justify-content: space-between;
+section {
+  padding: 4rem 6rem;
 }
 
+.hero {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between;
+  flex-wrap: wrap; */
+}
+
+.heroLeft {
+  flex: 1 1 50%;
+  max-width: 50%;
+}
+
+.heroLeft h1 {
+  font-size: 5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #0a2540;
+}
+
+.heroLeft p {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  color: #4b5563;
+}
+
+.heroForm {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.heroForm input {
+  flex: 1;
+  padding: 1rem 1rem;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 1rem;
+}
+.green {
+  background-color: #007c89;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 8px;
+  /* padding: 0.9rem 1.5rem; */
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.button.green:hover {
+  background-color: #005f68;
+}
+
+.heroLogos {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2.5rem;
+}
+
+.heroLogos h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #0a2540;
+  opacity: 0.7;
+}
+
+.heroRight {
+  flex: 1 1 50%;
+    background-color: #085c5c;
+}
+
+.heroRight img {
+  width: 100%;
+  height: auto;
+  
+}
