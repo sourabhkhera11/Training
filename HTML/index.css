@@ -44,7 +44,7 @@
     font-weight:bolder;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 }
-section {
+.heroSection {
   padding: 4rem 6rem;
 }
 
@@ -125,4 +125,16 @@ section {
   width: 100%;
   height: auto;
   
+}
+
+.futurePaymentSection{
+    padding: 5rem;
+    margin: 5rem;
+    border-radius: 2rem;
+    box-shadow: 5px 5px 5px 5px rgba(0.3, 0.3, 0.3, 0.3);
+    /* box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.3); */
+}
+
+.text{
+    
 }
