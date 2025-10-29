@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .navbar{
     display: flex;
@@ -10,7 +11,6 @@
     justify-content: space-between;
     padding: 1rem 2rem;
     background: #f8fbfb;
-    font-family: Arial, Helvetica, sans-serif;
 }
 .navlinks{
     list-style: none;
@@ -57,7 +57,7 @@
 
 .heroLeft {
   flex: 1 1 50%;
-  max-width: 50%;
+  min-width: 50%;
 }
 
 .heroLeft h1 {
@@ -129,12 +129,60 @@
 
 .futurePaymentSection{
     padding: 5rem;
-    margin: 5rem;
+    margin: 10rem;
     border-radius: 2rem;
-    box-shadow: 5px 5px 5px 5px rgba(0.3, 0.3, 0.3, 0.3);
+    box-shadow: 0px 2px 20px 5px rgba(194, 189, 189, 0.3);
+    background-color: #f8fafc;
     /* box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.3); */
 }
 
 .text{
-    
+    color: #007c89;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+.row1, .row2{
+    display: flex;
+    align-items: center;
+}
+.col1 {
+    flex: 1 1 50%;
+  min-width: 50%;
+}
+.col1 p{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    font-weight: medium;
+}
+.col2{
+    flex: 1 1 50%;
+  min-width: 50%;
+  margin-left: 6rem;
+}
+.col2 p{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight:300;
+    margin-left: 7rem;
+    color: #4b5563;
+    line-height: 2rem;
+}
+.futurePaymentSection .row2 {
+    gap: 14rem;padding-top: 2rem;
+}
+.subHeading{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.subPara{
+    font-size: 1rem;
+    color: #4b5563;
+    line-height: 2rem;
+    min-width: 350px;
+}
+.paymentLogos{
+    height: 60px;
+    width: auto;
 }
