@@ -190,28 +190,73 @@
 .whyUsSection{
     padding: 0rem 10rem 0rem 10rem;
 }
-.whyUs .row1{
+.whyUs .row1, .whyUs .row2{
     display: flex;
     justify-content: center;
     margin: 2rem 0rem ;
-    gap: 2rem;
+    gap: 3rem;
 }
 .whyUs .row1 .col1, .whyUs .row1 .col2{
     flex: 1 1 50%;
     min-width: 50%;
-    background-color: aqua;
-    padding: 2rem;
+    background-color: #f8fafc;
+    padding: 4rem;
+    border-radius: 2rem;
 }
-.text1{
+.whyUs .text1{
     font-size: 1.5rem;
     color: #007c89;
     font-weight: bold;
     text-align: center;
 }
-.text2{
+.whyUs .text2{
     font-size: 2.5rem;
     font-weight: 600;
     margin-top: 1rem;
     text-align: center;
 }
 
+.whyUs .row1 .col1 .t1{
+    font-size: 6rem;
+    font-weight: bold;
+    color: #007c89;
+    margin-bottom: 2rem;
+}
+
+.whyUs .row1 .col1 .t2, .whyUs .row1 .col2 p{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+.whyUs .row1 .col2 p{
+    margin-bottom: 2rem;
+}
+.whyUs .row1 .col2 img{
+    margin-top: 2rem;
+    height: 80px;
+    width: auto;
+    margin-left: 3rem;
+}
+.whyUs .row2{
+    background-color: #f8fafc;
+    border-radius: 2rem;
+}
+.whyUs .row2 .col1  {
+    flex: 1 1 30%;
+    min-width: 50%;
+    padding: 4rem;
+    border-radius: 2rem;
+}
+.whyUs .row2 .col2  {
+    flex: 1 1 70%;
+    min-width: 50%;
+    border-radius: 2rem;
+}
+.whyUs .row2 .col2 img{
+    margin-top: 2rem;
+    width: 80%;
+    height: auto;}
+.t3{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+
+}
