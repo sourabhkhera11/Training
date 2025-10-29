@@ -141,25 +141,25 @@
     font-weight: bolder;
     margin-bottom: 1rem;
 }
-.row1, .row2{
+.futurePaymentSection .row1,.futurePaymentSection .row2{
     display: flex;
     align-items: center;
 }
-.col1 {
+.futurePaymentSection .row1 .col1 {
     flex: 1 1 50%;
   min-width: 50%;
 }
-.col1 p{
+.futurePaymentSection .row1 .col1 p{
     font-size: 4rem;
     margin-bottom: 1rem;
     font-weight: medium;
 }
-.col2{
+.futurePaymentSection .row1 .col2{
     flex: 1 1 50%;
   min-width: 50%;
   margin-left: 6rem;
 }
-.col2 p{
+.futurePaymentSection .row1 .col2 p{
     font-size: 1rem;
     margin-bottom: 1rem;
     font-weight:300;
@@ -186,3 +186,32 @@
     height: 60px;
     width: auto;
 }
+
+.whyUsSection{
+    padding: 0rem 10rem 0rem 10rem;
+}
+.whyUs .row1{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0rem ;
+    gap: 2rem;
+}
+.whyUs .row1 .col1, .whyUs .row1 .col2{
+    flex: 1 1 50%;
+    min-width: 50%;
+    background-color: aqua;
+    padding: 2rem;
+}
+.text1{
+    font-size: 1.5rem;
+    color: #007c89;
+    font-weight: bold;
+    text-align: center;
+}
+.text2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    text-align: center;
+}
+
