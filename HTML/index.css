@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto','Lato', sans-serif;
 }
 .container{
     max-width: 1720px;
@@ -20,7 +20,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 2rem 0rem 1rem;
+    /* padding: 1rem 5rem 0rem 2rem; */
 }
 .navlinks{
     list-style: none;
@@ -54,25 +54,24 @@ header{
     font-weight:bolder;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 }
-/* .heroSection {
-  padding: 4rem 6rem;
-} */
-
 .hero {
   display: flex;
   align-items: center;
+  padding-left: 2rem;
   /* justify-content: space-between;
   flex-wrap: wrap; */
 }
-
+.bolderText{
+    font-weight: 700;
+}
 .heroLeft {
   flex: 0 0 50%;
-  min-width: 50%;
+  max-width: 50%;
 }
 
 .heroLeft h1 {
-  font-size: 5rem;
-  font-weight: 700;
+  font-size: 6.3rem;
+  font-weight: 500;
   line-height: 1.2;
   color: #0a2540;
 }
@@ -84,18 +83,27 @@ header{
 }
 
 .heroForm {
-  display: flex;
+  /* display: flex; */
   align-items: center;
-  gap: 0.5rem;
-  margin-top: 2rem;
+  /* gap: -2rem; */
+  margin-top: 4rem;
 }
-
+.heroForm input{
+    width: 19rem;
+}
 .heroForm input {
-  flex: 1;
   padding: 1rem 1rem;
   border-radius: 8px;
   border: 1px solid #d1d5db;
   font-size: 1rem;
+}
+.heroButton{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #007c89;
 }
 .green {
   background-color: #007c89;
@@ -127,6 +135,7 @@ header{
 
 .heroRight {
   flex: 0 0 50%;
+  max-width: 50%;
     background-color: #085c5c;
 }
 
@@ -156,26 +165,26 @@ header{
     align-items: center;
 }
 .futurePaymentSection .row1 .col1 {
-    flex: 0 0 40%;
-  min-width: 40%;
+    flex: 0 0 50%;
+  max-width: 50%;
 }
 .futurePaymentSection .row1 .col1 p{
-    font-size: 4rem;
+    font-size: 5rem;
     margin-bottom: 1rem;
     font-weight: medium;
 }
 .futurePaymentSection .row1 .col2{
-    flex: 0 0 40%;
-  min-width: 40%;
+    flex: 0 0 50%;
+  max-width: 50%;
   /* margin-left: 6rem; */
 }
 .futurePaymentSection .row1 .col2 p{
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
     font-weight:300;
     margin-left: 7rem;
     color: #4b5563;
-    line-height: 2rem;
+    line-height: 3rem;
 }
 .futurePaymentSection .row2 {
     gap: 14rem;padding-top: 2rem;
@@ -198,7 +207,7 @@ header{
 }
 
 .whyUs .row1{
-    display: flex; 
+    display: flex;
     margin-bottom: 2rem;
     gap: 2rem;
 }
@@ -208,11 +217,15 @@ header{
     /* gap: 2rem; */
 }
 .whyUs .row1 .col1, .whyUs .row1 .col2{
-    flex: 0 0 40%;
-    max-width: 40%;
+    flex: 0 0 50%;
+    max-width: 50%;
     background-color: #f8fafc;
-    padding: 4rem;
     border-radius: 2rem;
+    width: 100%;
+
+}
+.content{
+    padding: 2rem;
 }
 .whyUs .text1{
     font-size: 1.5rem;
@@ -252,19 +265,21 @@ header{
     border-radius: 2rem;
 }
 .whyUs .row2 .col1  {
-    flex: 0 0 40%;
-    min-width: 40%;
+    /* flex: 0 0 50%; */
+    max-width: 50%;
     padding: 4rem;
+    width: 100%;
     border-radius: 2rem;
 }
 .whyUs .row2 .col2  {
-    flex: 0 0 50%;
-    min-width: 50%;
+    /* flex: 0 0 50%; */
+    max-width: 50%;
+    width: 100%;
     border-radius: 2rem;
 }
 .whyUs .row2 .col2 img{
     margin-top: 2rem;
-    width: 80%;
+    width: 45rem;
     height: auto;}
 .t3{
     font-size: 2.5rem;
@@ -297,7 +312,8 @@ header{
     padding: 2rem;
     border-radius: 0.5rem;
     box-shadow: 0px 2px 20px 5px rgba(26, 25, 25, 0.3);
-    flex:1 1 30%;
+    flex:0 0 29%;
+    max-width: 29%;
 }
 .number{
     font-size: 4rem;
@@ -399,7 +415,7 @@ header{
 }
 .section .col1, .section .col2{
     flex: 0 0 40%;
-  min-width: 40%; 
+  max-width: 40%; 
 
 }
 .section .col2{
@@ -452,15 +468,12 @@ header{
 }
 .footer .col2{
     flex: 0 0 50%;
-    min-width: 50%;
+    max-width: 50%;
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    gap: 4rem;
 }
-.cards{
-    flex: 0 0 16%;
-    justify-content: space-around;
-}
+
 .cards ul{
     list-style:none;
 }
@@ -473,8 +486,9 @@ header{
     color: #7b7d81;
     
 }
-h4{
-    font-size: 1.5rem;
+.h4{
+    font-size: 4rem;
+    font-weight: bold   ;
     margin-bottom: 2rem;
 }
 .footer .col3{
@@ -484,9 +498,10 @@ h4{
     font-size: 1rem;
     margin-bottom: 2rem;
 }
-.footer ic{
+.footer .col3 .ic{
     display: flex;
-    gap: 3rem;
+    gap: 2rem;
+    justify-content: center;
 }
 .subFooter{
     margin: 4rem;
