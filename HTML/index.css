@@ -167,6 +167,7 @@ header{
 .futurePaymentSection .row1 .col1 {
     flex: 0 0 50%;
   max-width: 50%;
+  width: 100%;
 }
 .futurePaymentSection .row1 .col1 p{
     font-size: 5rem;
@@ -176,6 +177,7 @@ header{
 .futurePaymentSection .row1 .col2{
     flex: 0 0 50%;
   max-width: 50%;
+  width: 100%;
   /* margin-left: 6rem; */
 }
 .futurePaymentSection .row1 .col2 p{
@@ -187,7 +189,13 @@ header{
     line-height: 3rem;
 }
 .futurePaymentSection .row2 {
-    gap: 14rem;padding-top: 2rem;
+    width: 100%;
+    padding-top: 2rem;
+}
+.futurePaymentSection .row2 .c1, .futurePaymentSection .row2 .c2, .futurePaymentSection .row2 .c3{
+    max-width: 33.33%;
+    width: 100%;
+    padding: 3rem;
 }
 .subHeading{
     font-weight: bold;
