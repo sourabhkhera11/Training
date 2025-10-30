@@ -381,9 +381,45 @@
 .section{
     display: flex;
     align-items: center;
+    margin: 4rem;
+    border-radius: 2rem;
 }
 .section .col1, .section .col2{
     flex: 0 0 50%;
   min-width: 50%; 
 
+}
+.section .col2{
+    padding: 6rem;
+    display: flex;
+    gap: 1rem;
+
+}
+.button1 {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+.buttonGW{
+    background-color: #007c89;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+.buttonGW:hover {
+    background-color: #005f68;
+}
+.buttonBC{
+    background-color: #032D3E;
+    color: #ffffff;
+    border: 0.1rem solid #007c89;
+}
+.buttonBC:hover {
+    color: #007c89;
+    background-color: #ffffff;
+    border: 0.1rem solid #007c89;
+}
+.section .col1 .t2{
+    font-size: 4rem;
+    margin-bottom: 4rem;
 }
