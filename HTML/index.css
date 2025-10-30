@@ -1,16 +1,26 @@
 /* To remove any sort of default margin and padding  */
-*{
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+.container{
+    max-width: 1720px;
+    width: 100%;
+    margin: auto;
+}
+header{
+    background: #f8fbfb;
+    position: sticky;
+    top: 0;
+    margin-bottom: 2rem;
+}
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 2rem;
-    background: #f8fbfb;
+    padding: 1rem 2rem 0rem 1rem;
 }
 .navlinks{
     list-style: none;
@@ -44,9 +54,9 @@
     font-weight:bolder;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
 }
-.heroSection {
+/* .heroSection {
   padding: 4rem 6rem;
-}
+} */
 
 .hero {
   display: flex;
@@ -101,7 +111,6 @@
 .button.green:hover {
   background-color: #005f68;
 }
-
 .heroLogos {
   display: flex;
   align-items: center;
@@ -128,8 +137,9 @@
 }
 
 .futurePaymentSection{
-    padding: 5rem;
-    margin: 10rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    padding: 3rem;
     border-radius: 2rem;
     box-shadow: 0px 2px 20px 5px rgba(194, 189, 189, 0.3);
     background-color: #f8fafc;
@@ -146,8 +156,8 @@
     align-items: center;
 }
 .futurePaymentSection .row1 .col1 {
-    flex: 1 1 50%;
-  min-width: 50%;
+    flex: 0 0 40%;
+  min-width: 40%;
 }
 .futurePaymentSection .row1 .col1 p{
     font-size: 4rem;
@@ -155,9 +165,9 @@
     font-weight: medium;
 }
 .futurePaymentSection .row1 .col2{
-    flex: 1 1 50%;
-  min-width: 50%;
-  margin-left: 6rem;
+    flex: 0 0 40%;
+  min-width: 40%;
+  /* margin-left: 6rem; */
 }
 .futurePaymentSection .row1 .col2 p{
     font-size: 1rem;
@@ -187,18 +197,19 @@
     width: auto;
 }
 
-.whyUsSection{
-    padding: 0rem 10rem 0rem 10rem;
+.whyUs .row1{
+    display: flex; 
+    margin-bottom: 2rem;
+    gap: 2rem;
 }
-.whyUs .row1, .whyUs .row2{
-    display: flex;
-    justify-content: center;
-    margin: 2rem 0rem ;
-    gap: 3rem;
+.whyUs .row2{
+    display: flex; 
+    margin-bottom: 2rem;
+    /* gap: 2rem; */
 }
 .whyUs .row1 .col1, .whyUs .row1 .col2{
-    flex: 1 1 50%;
-    min-width: 50%;
+    flex: 0 0 40%;
+    max-width: 40%;
     background-color: #f8fafc;
     padding: 4rem;
     border-radius: 2rem;
@@ -234,20 +245,20 @@
     margin-top: 2rem;
     height: 80px;
     width: auto;
-    margin-left: 3rem;
+    /* margin-left: 3rem; */
 }
 .whyUs .row2{
     background-color: #f8fafc;
     border-radius: 2rem;
 }
 .whyUs .row2 .col1  {
-    flex: 1 1 30%;
-    min-width: 50%;
+    flex: 0 0 40%;
+    min-width: 40%;
     padding: 4rem;
     border-radius: 2rem;
 }
 .whyUs .row2 .col2  {
-    flex: 1 1 70%;
+    flex: 0 0 50%;
     min-width: 50%;
     border-radius: 2rem;
 }
@@ -264,6 +275,8 @@
 .step,.section{
     padding: 6rem;
     background-color: #032D3E;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 .step .t1,.section .t1 {
     color: #005f68;
@@ -381,19 +394,19 @@
 .section{
     display: flex;
     align-items: center;
-    margin: 4rem;
+    /* margin: 4rem; */
     border-radius: 2rem;
 }
 .section .col1, .section .col2{
-    flex: 0 0 50%;
-  min-width: 50%; 
+    flex: 0 0 40%;
+  min-width: 40%; 
 
 }
 .section .col2{
     padding: 6rem;
     display: flex;
     gap: 1rem;
-
+    justify-content: center;
 }
 .button1 {
     padding: 1rem;
@@ -428,7 +441,8 @@
     width: auto;
 }
 .footer{
-    margin: 4rem;
+    /* margin: 4rem; */
+    margin-top: 2rem;
     display: flex;
 }
 .footer .col1, .footer .col3{
