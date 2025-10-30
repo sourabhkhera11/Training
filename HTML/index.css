@@ -423,3 +423,69 @@
     font-size: 4rem;
     margin-bottom: 4rem;
 }
+.icons{
+    height: 2rem;
+    width: auto;
+}
+.footer{
+    margin: 4rem;
+    display: flex;
+}
+.footer .col1, .footer .col3{
+    flex: 0 0 25%;
+    min-width: 25%;
+    justify-content: center;
+}
+.footer .col2{
+    flex: 0 0 50%;
+    min-width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.cards{
+    flex: 0 0 16%;
+    justify-content: space-around;
+}
+.cards ul{
+    list-style:none;
+}
+.cards ul li{
+    font-size: 1rem;line-height: 2rem;
+    
+}
+.cards a{
+    text-decoration: none;
+    color: #7b7d81;
+    
+}
+h4{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.footer .col3{
+    text-align: center;
+}
+.footer .col3 p{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.footer ic{
+    display: flex;
+    gap: 3rem;
+}
+.subFooter{
+    margin: 4rem;
+    text-align: center;
+    line-height: 0.1rem;
+}
+.subFooter p{
+    margin-top: 2rem;
+    color: #085c5c;
+}
+hr {
+  border: none; 
+  height: 1px; 
+  background-color: #ccc; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
