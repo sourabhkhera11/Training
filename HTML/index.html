@@ -6,7 +6,6 @@
     <title>finpay</title>
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-
 </head>
 <body>
     <header>
@@ -34,7 +33,14 @@
           <p>Supports small businesses with simple invoicing, powerful integrations, and cash flow management tools.</p>
             <div class="heroForm">
               <input type="text" placeholder="Your business email">
-              <button class="heroButton" type="submit">Get Started</button>
+              <button type="submit" class="heroButton">
+                <div style="display: flex;  align-items: center; gap: 1rem;">
+                  <div>Get Started</div >
+                  <div><svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 16 16" fill="none">
+<path d="M14 2H5.50003L4.00003 3.5L6.83581 6.33579L0.585815 12.5858L3.41424 15.4142L9.66424 9.16421L12.5 12L14 10.5L14 2Z" fill="#fff"/>
+</svg></div>
+                </div>
+              </button>
             </div>
             <div class="heroLogos">
               <h2>Klarna.</h2>
@@ -99,16 +105,14 @@
         </div>
         <div class="row2">
           <div class="col1">
-            <div class="content2">
+            <div class="c1">
               <p class="t3">No asset volatility</p>
               <p class="t3Para">Greater returns on your cash reserves without making any investments.</p>
             </div>
             </p>
           </div>
           <div class="col2 ">
-            <div class="content2">
-              <img src="./public/graph.png" alt="Summary graph">
-            </div>
+            <img src="./public/graph.png" alt="Summary graph">
           </div>
         </div>
       </div>
@@ -116,24 +120,31 @@
 
 
     <section class="stepSection ">
-      <div class="step">
+      <div class="step">.
         <p class="t1">STEP</p>
-        <p class="t2">Maximize your returns with a <br>Reserve account that generates.</p>
+        <div class="con">
+          <div class="f1">
+            <p class="t2">Maximize your returns with a Reserve account that generates.</p>
+          </div>
+          <div class="f2">
+
+          </div>
+        </div>
         <div class="steps">
           <div class="step1">
             <p class="number">1</p>
             <p class="subText">Open your account</p>
-            <p class="superSubText">Sign up for a Finpay Reserve account <br>in minutes with no minimum deposit required.</p>
+            <p class="superSubText">Sign up for a Finpay Reserve account in minutes with no minimum deposit required.</p>
           </div>
           <div class="step2">
             <p class="number">2</p>
             <p class="subText">Transfer your money</p>
-            <p class="superSubText">Move funds from your business account <br>to your Finpay Reserve account easily online.</p>
+            <p class="superSubText">Move funds from your business account to your Finpay Reserve account easily online.</p>
           </div>
           <div class="step3">
             <p class="number">3</p>
             <p class="subText">Watch your balance grow</p>
-            <p class="superSubText">Your funds start earning yield immediately <br>with interest paid monthly.</p>
+            <p class="superSubText">Your funds start earning yield immediately with interest paid monthly.</p>
           </div>
         </div>
       </div>
@@ -142,8 +153,10 @@
     <section class="missionSection">
       <div class="mission">
         <p class="t1">OUR MISSION</p>
-        <p class="t2">We've helped <br>innovative companies</p>
-        <p class="t3">Hundreds of all sizes and acroos all industries <br>have made a big improvements with us.</p>
+        <p class="t2">We've helped </p>
+        <p class="t2">innovative companies</p>
+        <p class="t3" style="margin-top: 2rem;">Hundreds of all sizes and acroos all industries </p>
+        <p class="t3">have made a big improvements with us.</p>
         <div class="row1">
           <div class="col1">
             <p class="first">24%</p>
@@ -166,24 +179,29 @@
               <div class="lower">
                 <div class="b2">£2.99/month</div>
                 <div style="display: inline;">
-                  <img class="arrow" src="./public/arrow.png" alt="">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 16 16" fill="none">
+<path d="M14 2H5.50003L4.00003 3.5L6.83581 6.33579L0.585815 12.5858L3.41424 15.4142L9.66424 9.16421L12.5 12L14 10.5L14 2Z" fill="#000"></path>
+</svg>
                 </div>
               </div>
             </button>
           </div>
           <div class="col2">
-            <button class="two" style="background-color:#0A3E52;">
+            <button class="two" style="background-color: #085c5c ;">
               <div class="b1" style="color: #fff;">Preminum</div>
               <div class="lower">
                 <div class="b2" style="color: #fff;">£6.99/month</div>
                 <div style="display: inline;">
-                  <img class="arrow" src="./public/arrow.png" alt="">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 16 16" fill="none">
+<path d="M14 2H5.50003L4.00003 3.5L6.83581 6.33579L0.585815 12.5858L3.41424 15.4142L9.66424 9.16421L12.5 12L14 10.5L14 2Z" fill="#fff"></path>
+</svg>
                 </div>
               </div>
             </button>
           </div>
           </div>
-        </div>
+        </div><meta name="viewport" content="width=device-width, initial-scale=1.0">
+
       </div>
     </section>
 
@@ -196,7 +214,9 @@
         </div>
         <div class="col2">
           <button class="button1 buttonGW">Get Started Now</button>
-          <button style="display: flex; align-items: center;" class="button1 buttonBC"><span>Learn More </span> <span><img src="./public/arrow.png" alt="arrowButton" height="20px" ></span></button>
+          <button style="display: flex; align-items: center; gap: 1rem;" class="button1 buttonBC"><span>Learn More </span> <span><svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" viewBox="0 0 16 16" fill="none">
+<path d="M14 2H5.50003L4.00003 3.5L6.83581 6.33579L0.585815 12.5858L3.41424 15.4142L9.66424 9.16421L12.5 12L14 10.5L14 2Z" fill="#fff"></path>
+</svg></span></button>
         </div>
       </div>
     </section>
