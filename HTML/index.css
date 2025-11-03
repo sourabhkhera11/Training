@@ -11,7 +11,7 @@ p {
 }
 
 .container{
-    max-width: 1720px;
+    max-width: 1400px;
     width: 100%;
     margin: auto;
 }
@@ -19,19 +19,18 @@ header{
     background: #f8fbfb;
     position: sticky;
     top: 0;
-    margin-bottom: 2rem;
 }
 .navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem 0rem;
+    padding: 16px 0px;
     /* padding: 1rem 5rem 0rem 2rem; */
 }
 .navlinks{
     list-style: none;
     display: flex;
-    gap: 2rem;
+    gap: 32px;
 }
 .navlinks a{
     text-decoration: none;
@@ -39,14 +38,13 @@ header{
     font-size:larger;
 }
 .button{
-    padding: 0.5rem;
+    padding: 8px;
     border: none;
     width: 100px;
     height: 40px;
     border-radius: 8px;
     cursor: pointer;
     font-weight: 500;
-    margin: 0.5rem;
     font-size: medium;
 }
 .login{
@@ -63,7 +61,7 @@ header{
 .hero {
   display: flex;
   align-items: center;
-  padding-left: 2rem;
+  padding-left: 32px;
   /* justify-content: space-between;
   flex-wrap: wrap; */
 }
@@ -71,46 +69,46 @@ header{
     font-weight: 700;
 }
 .heroLeft {
-  flex: 0 0 50%;
-  max-width: 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .heroLeft h1 {
-  font-size: 6.3rem;
+  font-size: 60px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 70px;
   color: #0a2540;
 }
 
 .heroLeft p {
-  margin-top: 1.5rem;
-  font-size: 2.1rem;
+  font-size: 25px;
+  line-height: 35px;
   color: #4b5563;
 }
 
 .heroForm {
-  /* display: flex; */
   align-items: center;
-  /* gap: -2rem; */
-  margin-top: 4rem;
 }
 .heroForm input{
-    width: 30rem;
+    width: 480px;
 }
 .heroForm input {
-  padding: 1rem 1rem;
+  padding: 16px 16px;
   border-radius: 8px;
   border: 1px solid #d1d5db;
-  font-size: 1rem;
+  font-size: 16px;
 }
 .heroButton{
-    padding: 0.8rem;
-    border-radius: 0.5rem;
+    padding: 12px;
+    border-radius: 8px;
     border: none;
     font-weight: 700;
     color: #ffffff;
     background-color: #007c89;
-    transform: translate(-6.5rem);
+    transform: translate(-104px);
 
 }
 .heroButton:hover{
@@ -118,7 +116,7 @@ header{
 }
 .heroB{
     background-color: #007c89;
-    padding: 1rem;
+    padding: 16px;
     display: inline;
 
 }
@@ -128,8 +126,7 @@ header{
   color: #fff;
   font-weight: 500;
   border-radius: 8px;
-  /* padding: 0.9rem 1.5rem; */
-  padding: 0.5rem;
+  padding: 8px;
   cursor: pointer;
 }
 
@@ -139,12 +136,12 @@ header{
 .heroLogos {
   display: flex;
   align-items: center;
-  gap: 3rem;
-  margin-top: 2.5rem;
+  gap: 48px;
+  /* margin-top: 2.5rem; */
 }
 
 .heroLogos h2 {
-  font-size: 2.5rem;
+  font-size: 40px;
   font-weight: 600;
   color: #0a2540;
   opacity: 0.7;
@@ -163,10 +160,10 @@ header{
 }
 
 .futurePaymentSection{
-    margin-top: 4rem;
-    margin-bottom: 4rem;
-    padding: 3rem;
-    border-radius: 2rem;
+    margin-top: 64px;
+    margin-bottom: 64px;
+    padding: 48px;
+    border-radius: 32px;
     box-shadow: 0px 2px 20px 5px rgba(194, 189, 189, 0.3);
     background-color: #f8fafc;
     /* box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.3); */
@@ -175,7 +172,7 @@ header{
 .text{
     color: #007c89;
     font-weight: bolder;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 .futurePaymentSection .row1,.futurePaymentSection .row2{
     display: flex;
@@ -188,8 +185,8 @@ header{
   width: 100%;
 }
 .futurePaymentSection .row1 .col1 p{
-    font-size: 5rem;
-    margin-bottom: 1rem;
+    font-size: 80px;
+    margin-bottom: 16px;
     font-weight: medium;
 }
 .futurePaymentSection .row1 .col2{
@@ -199,130 +196,130 @@ header{
   /* margin-left: 6rem; */
 }
 .futurePaymentSection .row1 .col2 p{
-    font-size: 1.5rem;
-    margin-bottom: 1rem;
+    font-size: 24px;
+    margin-bottom: 16px;
     font-weight:300;
-    margin-left: 7rem;
+    margin-left: 112px;
     color: #4b5563;
-    line-height: 3rem;
-    padding: 4rem;
+    line-height: 48px;
+    padding: 64px;
 }
 .futurePaymentSection .row2 {
     width: 100%;
-    padding-top: 2rem;
+    padding-top: 32px;
     
 }
 .futurePaymentSection .row2 .c1, .futurePaymentSection .row2 .c2, .futurePaymentSection .row2 .c3{
     max-width: 33.33%;
     width: 100%;
-    padding-right: 15rem ;
-    margin-bottom: 2rem;
+    padding-right: 78px ;
+    margin-bottom: 32px;
 }
 .subHeading{
     font-weight: bold;
-    font-size: 2rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    font-size: 32px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 .subPara{
-    font-size: 1rem;
+    font-size: 16px;
     color: #4b5563;
-    line-height: 2rem;
+    line-height: 32px;
 }
 .t3Para{
-    font-size: 1.5rem;
+    font-size: 24px;
     color: #4b5563;
-    line-height: 2rem;
+    line-height: 32px;
 }
 .paymentLogos{
     height: 60px;
     width: auto;
 }
 .whyUs{
-    margin-top: 5rem;
+    margin-top: 80px;
 }
 .whyUs .row1{
     display: flex;
-    margin-bottom: 2rem;
-    gap: 2rem;
+    margin-bottom: 32px;
+    gap: 32px;
 }
 .whyUs .row2{
     display: flex; 
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
     /* gap: 2rem; */
 }
 .whyUs .row1 .col1, .whyUs .row1 .col2{
     max-width: 50%;
     background-color: #f8fafc;
-    border-radius: 2rem;
+    border-radius: 32px;
     width: 100%;
-    padding: 2rem;
+    padding: 32px;
 }
 .content{
-    padding: 2rem;
-    padding-left: 2rem;
+    padding: 32px;
+    padding-left: 32px;
 }
 .whyUs .text1{
-    font-size: 1.5rem;
+    font-size: 24px;
     color: #007c89;
     font-weight: bold;
     text-align: center;
 }
 .whyUs .text2{
-    font-size: 2.5rem;
+    font-size: 40px;
     font-weight: 600;
-    margin-top: 1rem;
-    margin-bottom: 3rem;
+    margin-top: 16px;
+    margin-bottom: 48px;
     text-align: center;
 }
 
 .whyUs .row1 .col1 .t1{
-    font-size: 6rem;
+    font-size: 96px;
     font-weight: bold;
     color: #007c89;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
 }
 
 .whyUs .row1 .col1 .t2, .whyUs .row1 .col2 p{
-    font-size: 2.5rem;
+    font-size: 40px
     font-weight: 400;
 }
 .whyUs .row1 .col2 p{
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
 }
 .whyUs .row1 .col2 img{
-    margin-top: 2rem;
+    margin-top: 32px;
     height: 80px;
     width: auto;
     /* margin-left: 3rem; */
 }
 .whyUs .row2{
     background-color: #f8fafc;
-    border-radius: 2rem;
+    border-radius: 32px;
 }
 .whyUs .row2 .col1  {
     /* flex: 0 0 50%; */
     max-width: 30%;
-    padding: 4rem;
+    padding: 64px;
     width: 100%;
-    border-radius: 2rem;
-    padding-top: 12rem;
+    border-radius: 32px;
+    padding-top: 192px;
     /* align-items: center; */
 }
 .whyUs .row2 .col2  {
     /* flex: 0 0 50%; */
     max-width: 70%;
     width: 100%;
-    border-radius: 2rem;
+    border-radius: 32px;
 }
 .whyUs .row2 .col2 img{
-    margin-top: 2rem;
+    margin-top: 32px;
     width: 100%;
     height: auto;}
 .whyUs .row2 .col1 .t3{
     font-weight: 600;
-    font-size: 3rem;
-    margin-bottom: 2rem;
+    font-size: 48px;
+    margin-bottom: 32px;
 
 }
 .con{
@@ -334,36 +331,36 @@ header{
     width: 100%;
 }
 .step,.section{
-    padding: 6rem;
+    padding: 96px;
     background-color: #032D3E;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 64px;
+    margin-bottom: 64px;
 }
 .step .t1,.section .t1 {
     color: #005f68;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 .step .t2, .section .t2{
     color: #ffffff;
-    font-size: 4rem;
-    margin-bottom: 4rem;
+    font-size: 64px;
+    margin-bottom: 64px;
 }
 .step .steps{
     display: flex;
-    gap: 2rem;
+    gap: 32px;
 }
 .step .steps .step1, .step .steps .step2, .step .steps .step3{
     background-color: #0A3E52;
-    padding: 2rem;
-    border-radius: 0.8rem;
+    padding: 32px;
+    border-radius: 12.8px;
     box-shadow: 0px 2px 20px 5px rgba(26, 25, 25, 0.3);
     /* flex:0 0 29%; */
     max-width: 29%;
     width: 100%;
 }
 .number{
-    font-size: 6rem;
+    font-size: 96px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #fff;
@@ -373,73 +370,73 @@ header{
 }
 .subText{
     color: #ffffff;
-    font-size: 1.5rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    font-size: 24px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
 .superSubText{
     color: #a39d9d;
-    font-size: 1.3rem;
+    font-size: 20.8px;
 }
 .mission{
     /* margin: 4rem; */
-    margin: 5rem 0rem;
+    margin: 80px 0px;
 }
 .mission .t1{
     color: #005f68;
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
     text-align: center;
 }
 .mission .t2{
     text-align: center;
-    font-size: 4rem;
-    margin-bottom: 1rem;
+    font-size: 64px;
+    margin-bottom: 16px;
 }
 .mission .t3{
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 24px;
     color: #4b5563;
-    margin-bottom: 0.8rem;
+    margin-bottom: 12.8px;
 }
 .mission .row1{
     display: flex;
     justify-content: center;
-    gap: 5rem;
-    margin-top: 4rem;
+    gap: 80px;
+    margin-top: 64px;
 }
 .mission .row1 .col1, .mission .row1 .col2, .mission .row1 .col3{
     text-align: center;
 }
 .first{
-    font-size: 4rem;
+    font-size: 64px;
 }
 .before{
     text-align: center;
     color: #0A3E52;
-    margin-top: 3rem;
+    margin-top: 48px;
 }
 
 .mission .row2{
     display: flex;
     justify-content: center;
-    gap: 3rem;
-    margin-top: 2rem;
+    gap: 48px;
+    margin-top: 32px;
 }
 .mission .row2 .col1 button, .mission .row2 .col2 button{
-    padding: 1.5rem;
-    border-radius: 0.5rem;
-    min-width: 20rem;
+    padding:24px ;
+    border-radius:8px;
+    min-width: 320px;
     border: none;
 }
 .one ,.two{
     cursor: pointer;
 }
 .b1{
-    font-size: 2.5rem;
-    font-weight: bold;margin-bottom: 5rem;
+    font-size: 40px;
+    font-weight: bold;margin-bottom: 80px;
 }
 .b2{
-    font-size: 1.5rem;
+    font-size: 24px;
     color: #4b5563;
     display: inline;
 }
@@ -451,20 +448,20 @@ header{
 .arrow{
     width: 30px;
     height: auto;
-    margin-left: 1rem;
+    margin-left: 16px;
 
 }
 
 .section .t3{
     color: #a39d9d;
-    font-size: 1rem;
-    margin-top: -2rem;
+    font-size: 16px;
+    margin-top: -32px;
 }
 .section{
     display: flex;
     align-items: center;
     /* margin: 4rem; */
-    border-radius: 2rem;
+    border-radius: 32px;
 }
 .section .col1{
     flex: 0 0 40%;
@@ -476,15 +473,15 @@ header{
     /* flex: 0 0 60%; */
     width: 100%;
   max-width: 60%; 
-    padding: 6rem;
+    padding: 96px;
     display: flex;
-    gap: 1rem;
+    gap: 16px;
     justify-content: center;
 }
 .button1 {
-    padding: 1rem;
-    border-radius: 0.5rem;
-    font-size: 1rem;
+    padding: 16px;
+    border-radius: 8px;
+    font-size: 16px;
 }
 .buttonGW{
     background-color: #007c89;
@@ -498,16 +495,16 @@ header{
 .buttonBC{
     background-color: #032D3E;
     color: #ffffff;
-    border: 0.1rem solid #007c89;
+    border: 1.6px solid #007c89;
 }
 .buttonBC:hover {
     color: #007c89;
     background-color: #ffffff;
-    border: 0.1rem solid #007c89;
+    border: 1.6px solid #007c89;
 }
 .section .col1 .t2{
-    font-size: 3.5rem;
-    margin-bottom: 4rem;
+    font-size: 56px;
+    margin-bottom: 64px;
 }
 .section .col1 .t3{
     font-size: 1.3rem;
@@ -516,12 +513,12 @@ header{
     font-weight: lighter;
 }
 .icons{
-    height: 2rem;
+    height: 20.8px;
     width: auto;
 }
 .footer{
     /* margin: 4rem; */
-    margin-top: 2rem;
+    margin-top: 32px;
     display: flex;
 }
 .footer .col1, .footer .col3{
@@ -534,14 +531,14 @@ header{
     max-width: 50%;
     display: flex;
     justify-content: center;
-    gap: 4rem;
+    gap: 64px;
 }
 
 .cards ul{
     list-style:none;
 }
 .cards ul li{
-    font-size: 1rem;line-height: 2rem;
+    font-size: 16px;line-height: 32px;
     
 }
 .cards a{
@@ -550,29 +547,29 @@ header{
     
 }
 .h4{
-    font-size: 4rem;
+    font-size: 64px;
     font-weight: bold   ;
-    margin-bottom: 2rem;
+    margin-bottom: 32px;
 }
 .footer .col3{
     text-align: center;
 }
 .footer .col3 p{
-    font-size: 1rem;
-    margin-bottom: 2rem;
+    font-size: 16px;
+    margin-bottom: 32px;
 }
 .footer .col3 .ic{
     display: flex;
-    gap: 2rem;
+    gap: 32px;
     justify-content: center;
 }
 .subFooter{
-    margin: 4rem;
+    margin: 64px;
     text-align: center;
-    line-height: 0.1rem;
+    line-height: 1.6px;
 }
 .subFooter p{
-    margin-top: 2rem;
+    margin-top: 32px;
     color: #085c5c;
 }
 hr {
