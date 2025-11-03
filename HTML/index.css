@@ -25,6 +25,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 16px 0px;
+    z-index: 9;
     /* padding: 1rem 5rem 0rem 2rem; */
 }
 .navlinks{
@@ -185,7 +186,7 @@ header{
   width: 100%;
 }
 .futurePaymentSection .row1 .col1 p{
-    font-size: 80px;
+    font-size: 55px;
     margin-bottom: 16px;
     font-weight: medium;
 }
@@ -202,7 +203,7 @@ header{
     margin-left: 112px;
     color: #4b5563;
     line-height: 48px;
-    padding: 64px;
+    /* padding: 64px; */
 }
 .futurePaymentSection .row2 {
     width: 100%;
@@ -343,7 +344,7 @@ header{
 
 .step .t2, .section .t2{
     color: #ffffff;
-    font-size: 64px;
+    font-size: 55px;
     margin-bottom: 64px;
 }
 .step .steps{
