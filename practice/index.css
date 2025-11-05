@@ -46,14 +46,23 @@
     flex-basis: 25%;
 
 }
-
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    
+}
 
 .gridcontainer{
     background-color: beige;
     border: 5px solid black ;
-    width: 90vw;
-    height: 90vh;
-    margin: 2rem;
+    width: 100%;
+    height: 100%;
+    /* margin: 2rem; */
     display: grid;
     row-gap: 1rem;
     grid-template-rows: 1fr 3fr 3fr 1fr;
