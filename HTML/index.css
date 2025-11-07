@@ -604,10 +604,10 @@ hr {
         line-height: 35px;
     }
     .heroLeft h1{
-        font-size: 55px;
+        font-size: 70px;
     }
     .heroLeft p{
-        font-size: 20px;
+        font-size: 32px;
     }
     .futurePaymentSection .row1 .col1 p{
         font-size: 40px;
@@ -653,6 +653,31 @@ hr {
 }
 .step .steps{
     flex-wrap: wrap;
+}
+.steps{
+    flex-direction: column;
+
+}
+.step .steps .step1, .step .steps .step2, .step .steps .step3{
+    max-width: 100%;
+}
+.hero{
+    flex-direction: column;
+    width: 100%;
+}
+.heroLeft{
+    margin-top: 20px;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.heroRight{
+    margin-top: 30px;
+    flex: 0 0 95%;
+    max-width: 95%;
+    align-self: flex-start;
+}
+.heroForm input {
+    width: 70%;
 }
 }
 @media screen and (max-width:766px){
