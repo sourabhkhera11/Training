@@ -673,6 +673,7 @@ hr {
     margin-top: 20px;
     flex: 0 0 100%;
     max-width: 100%;
+    gap: 58px;
 }
 .heroRight{
     margin-top: 30px;
