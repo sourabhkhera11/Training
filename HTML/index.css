@@ -580,7 +580,7 @@ hr {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
-@media screen and (min-width: 767px) and (max-width: 1025px){
+@media screen and (min-width: 767px) and (max-width: 1024px){
     *{
         box-sizing: border-box;
         margin: 0;
@@ -597,6 +597,7 @@ hr {
     }
     .futurePaymentSection .row2 .c1 ,.futurePaymentSection .row2 .c2,.futurePaymentSection .row2 .c3{
         padding-right: 20px;
+        max-width: 100%;
     }
     .futurePaymentSection  .row1 .col2 p{
         margin-left: 0px;
@@ -678,6 +679,14 @@ hr {
 }
 .heroForm input {
     width: 70%;
+}
+.futurePaymentSection .row1,.futurePaymentSection .row2{
+    flex-direction: column;
+    align-items: start;
+}
+.futurePaymentSection .row1 .col1,.futurePaymentSection .row1 .col2 , .futurePaymentSection .row2 .col2{
+    max-width: 100%;
+    width: 100%;
 }
 }
 @media screen and (max-width:766px){
