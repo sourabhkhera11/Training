@@ -9,7 +9,9 @@ p {
   margin: 0;
   padding: 0;
 }
-
+.Burgerbutton{
+    display: none;
+}
 .container{
     max-width: 1400px;
     width: 100%;
@@ -25,7 +27,8 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 16px 0px;
-    z-index: 9;
+    z-index: 100;
+    background: #f8fbfb;
     /* padding: 1rem 5rem 0rem 2rem; */
 }
 .navlinks{
@@ -689,6 +692,124 @@ hr {
     width: 100%;
 }
 }
-@media screen and (max-width:766px){
-    
+@media screen and (max-width:767px){
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0px;
+    }
+    .container{
+        max-width: 100%;
+        padding: 20px;
+    }
+    .navlinks{
+        display: none;
+    }
+    .Burgerbutton{
+        display: block;
+    }
+    #authButtons{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    .hero{
+        flex-direction: column;
+        align-items: start;
+        padding-left: 0px;
+    }
+    .heroLeft,.heroRight{
+        max-width: 100%;
+        width: 100%;
+    }
+    .heroLeft h1{
+        font-size: 44px;
+    }
+    .heroLeft p{
+        font-size: 20px;
+    }
+    .heroForm input {
+        width: 90%;
+    }
+    .heroForm{
+        display: flex;
+    }
+    .heroLogos h2{
+        font-size: 22px;
+    }
+    .section,.mission .row2 ,.mission .row1 ,.steps,.whyUs .row1,.whyUs .row2,.futurePaymentSection .row1 ,.futurePaymentSection .row2{
+        flex-direction: column;
+    }
+    .section .col1,.futurePaymentSection .row1 .col1,.futurePaymentSection .row1 .col2 ,.futurePaymentSection .row2 .c1,.futurePaymentSection .row2 .c2,.futurePaymentSection .row2 .c3{
+        max-width: 100%;
+        width: 100%;
+        align-items: start;
+    }
+    .futurePaymentSection .row1 .col2 p{
+        margin: 0px;
+    }
+    .step .steps .step1,.step .steps .step2,.step .steps .step3, .whyUs .row1 .col1,.whyUs .row1 .col2,.whyUs .row2,.whyUs .row2 .col1,.whyUs .row2 .col1{
+        max-width: 100%;
+        width: 100%;
+    }
+    .whyUs .row2 .col1,.whyUs .row2 .col2{
+        padding: 15px;
+    }
+    .whyUs .row2 .col2 {
+        max-width: 100%;
+    }
+    .step .con .f2{
+        display: none;
+    }
+    .step{
+        padding: 20px;
+    }
+    .step .con{
+        flex-direction: column;
+    }
+    .step .con .f1{
+        max-width: 100%;
+        width: 100%;
+    }
+    .step .t2{
+        font-size: 36px;
+    }
+    .mission .t2{
+        font-size: 36px;
+    }
+    .mission .t3 {
+        font-size: 16px;
+    }
+    .mission .row2{
+        align-items: center;
+    }
+    .section{
+        padding: 30px 20px;
+        border-radius: 0px;
+    }
+    .section .col2{
+        padding: 50px 0px;
+    }
+    .section .col1 .t2 {
+        font-size: 46px;
+    }
+    .footer{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .trySection{
+        padding: 0px;
+    }
+    .section .col2{
+        max-width: 100%;
+        width: 100%;
+        justify-content: start;
+    }
+    .whyUs .t2,.whyUs .col2 {
+        font-size: 20px;
+    }
+    .futurePaymentSection .row2 .c1, .futurePaymentSection .row2 .c2, .futurePaymentSection .row2 .c3{
+        padding-right: 0px;
+    }
 }
